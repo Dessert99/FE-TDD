@@ -1,0 +1,31 @@
+{
+  "name": "vitest-practice",
+  "version": "1.0.0",
+  "description": "프론트엔드 TDD 학습을 위한 Vitest 연습 프로젝트",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dessert99/FE-TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dessert99/FE-TDD/issues"
+  },
+  "homepage": "https://github.com/Dessert99/FE-TDD#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.7",
+    "@vitest/ui": "^4.1.7",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14",
+    "vitest": "^4.1.7"
+  }
+}
